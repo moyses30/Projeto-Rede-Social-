@@ -17,18 +17,19 @@ body {
 }
 
 main {
+    
     height: 100vh;
     position: relative;
     
 }
 
 section#telefone {
-    position: absolute;
+    position: absolute; /*Manter bloco no meio */
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
+    height:627px;
     width: 311px;
   
     background: url(imagens/frame-iphone.png) no-repeat;
@@ -37,8 +38,9 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 80px;
-    left: 29px;
-    width: 260px;
+    left: 23px;
+    
+    width: 265px;
     height: 472px;
 }
 
